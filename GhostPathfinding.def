@@ -1,0 +1,6 @@
+LIBRARY GhostPathfinding
+EXPORTS
+    cuda_init
+    cuda_upload_map
+    cuda_compute
+    cuda_cleanup

@@ -15,7 +15,6 @@ private:
 public:
     bool loadTexture(const std::string& name, const std::string& filepath)
     {
-        // Show exactly where we are looking for the file
         std::cout << "TEXTURE MANAGER IS RUNNING" << std::endl;
         std::filesystem::path absPath = std::filesystem::absolute(filepath);
         std::cout << "[TextureManager] Looking for: " << absPath << std::endl;
